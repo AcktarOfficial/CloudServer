@@ -21,7 +21,7 @@ Installation
 -------------
 - `Take the database dump (CloudServer.sql) from the /IMPORTANT FOR THE BOT... folder and import it into your phpmyadmin`
 ![pma](https://i.imgur.com/2pOK7xz.jpg)
-![pma](https://i.imgur.com/Viw4pIJ.jpg)
+- `From the same folder take the createServer.js file and move it into your /node_modules/nodeactyl/application/methods/createServer.js replacing the default one`
 - `Then fill in the required informations in the config.json file`
 [config](https://i.imgur.com/FK63p23.jpg)
 - `Run npm install in the root directory of the bot files`
@@ -33,3 +33,6 @@ Registration System❤️
 Database Implementation❤️
 User Information System❤️
 Server Creation System❤️
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

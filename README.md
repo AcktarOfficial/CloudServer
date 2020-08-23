@@ -1,5 +1,5 @@
 ## CloudServer Alpha
-[Logo](https://i.imgur.com/AfHhfTr.png)
+![Logo](https://i.imgur.com/AfHhfTr.png)
 
 Introduction
 -------------
@@ -20,13 +20,13 @@ Links
 Installation
 -------------
 - `Take the database dump (CloudServer.sql) from the /IMPORTANT FOR THE BOT... folder and import it into your phpmyadmin`
-[pma](https://i.imgur.com/2pOK7xz.jpg)
-[pma](https://i.imgur.com/Viw4pIJ.jpg)
+![pma](https://i.imgur.com/2pOK7xz.jpg)
+![pma](https://i.imgur.com/Viw4pIJ.jpg)
 - `Then fill in the required informations in the config.json file`
 [config](https://i.imgur.com/FK63p23.jpg)
 - `Run npm install in the root directory of the bot files`
 - `Run node index.js and you are done`
-[Imgur](https://i.imgur.com/thE9b3Q.jpg)
+![Imgur](https://i.imgur.com/thE9b3Q.jpg)
 
 ## Project Status
 Registration System❤️

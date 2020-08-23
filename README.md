@@ -19,6 +19,7 @@ Links
 
 Installation
 -------------
+
 - `Take the database dump (CloudServer.sql) from the /IMPORTANT FOR THE BOT... folder and import it into your phpmyadmin`
 ![pma](https://i.imgur.com/2pOK7xz.jpg)
 - `From the same folder take the createServer.js file and move it into your /node_modules/nodeactyl/application/methods/createServer.js replacing the default one`
@@ -28,6 +29,13 @@ Installation
 - `Run node index.js and you are done`
 ![Imgur](https://i.imgur.com/thE9b3Q.jpg)
 
+Screenshots
+-------------
+
+![info](https://i.imgur.com/oVOT9H7.jpg)
+![error](https://i.imgur.com/892GEIN.jpg)
+![creation](https://i.imgur.com/OA0pJ4K.jpg)
+![registration](https://i.imgur.com/vwMVOlE.jpg)
 ## Project Status
 Registration System❤️
 Database Implementation❤️

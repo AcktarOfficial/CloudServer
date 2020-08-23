@@ -1,5 +1,5 @@
 {
-  "name": "CloudServer",
+  "name": "cloudserver",
   "version": "1.0.0",
   "description": "An Advanced Discord Bot Made To Ease The Jobs Of Peoples Who Cant Afford WHMCS Or Need A More Flexible Way Of Server Creations",
   "main": "index.js",
@@ -8,10 +8,9 @@
   },
   "dependencies": {
     "discord.js": "^12.3.1",
-    "enmap": "^5.7.0",
-    "random-words": "^1.1.0",
     "mysql": "^2.18.1",
-    "nodeactyl": "^2.0.3"
+    "nodeactyl": "^2.0.3",
+    "random-words": "^1.1.0"
   },
   "engines": {
     "node": "12.x"

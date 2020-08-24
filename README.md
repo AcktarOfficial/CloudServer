@@ -8,8 +8,9 @@ CloudServer is an advanced discord bot made specially for the owners of small ho
 
 * Written in Javascript, CloudServer is faster and more stable.
 * Having a friendly structure, it's easy to contribute to CloudServer's development and bring your ideas into reality
+* CloudServer must not be used under production environments. Its only here just to give an idea to newbies
 
-CloudServer is **under improvement** yet, we welcome contributions. 
+CloudServer is **under development** and we welcome contributions. 
 
 Links
 --------------------

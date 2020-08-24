@@ -124,7 +124,7 @@ exports.run = (client, message) => {
 										if (software === '1') {
 											Application.createServer('1.12.2', randname, user.pterodactyl_userID, null, client.config.paperEGG, 'quay.io/pterodactyl/core:java', 'java -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}', ram, '0', disk, '500', '100', '0', '1').then(res => {
 												con.query(`UPDATE users SET current_ram = '${RamCount}', current_disk = '${DiskCount}', current_servers = '${Servers}' WHERE discord_id = '${message.author.id}'`);
-												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}')`);
+												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier, server_ram, server_disk) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}', '${ram}', '${disk}')`);
 												const Deployed = new Discord.MessageEmbed()
 													.setColor('#CB00FF')
 													.setAuthor('CloudServer ¦ Creation', client.user.avatarURL())
@@ -136,7 +136,7 @@ exports.run = (client, message) => {
 										else if (software === '2') {
 											Application.createServer('latest', randname, user.pterodactyl_userID, null, client.config.nukkitEGG, 'quay.io/pterodactyl/core:java-glibc', 'java -Xms128M -Xmx{{SERVER_MEMORY}}M -jar {{SERVER_JARFILE}}', ram, '0', disk, '500', '100', '0', '1').then(res => {
 												con.query(`UPDATE users SET current_ram = '${RamCount}', current_disk = '${DiskCount}', current_servers = '${Servers}' WHERE discord_id = '${message.author.id}'`);
-												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}')`);
+												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier, server_ram, server_disk) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}', '${ram}', '${disk}')`);
 												const Deployed = new Discord.MessageEmbed()
 													.setColor('#EC00FF')
 													.setAuthor('CloudServer ¦ Creation', client.user.avatarURL())
@@ -148,7 +148,7 @@ exports.run = (client, message) => {
 										else if (software === '3') {
 											Application.createServer('latest', randname, user.pterodactyl_userID, null, client.config.pocketmineEGG, 'quay.io/parkervcp/pterodactyl-images:base_ubuntu', './bin/php7/bin/php ./PocketMine-MP.phar --no-wizard --disable-ansi', ram, '0', disk, '500', '100', '0', '1').then(res => {
 												con.query(`UPDATE users SET current_ram = '${RamCount}', current_disk = '${DiskCount}', current_servers = '${Servers}' WHERE discord_id = '${message.author.id}'`);
-												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}')`);
+												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier, server_ram, server_disk) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}', '${ram}', '${disk}')`);
 												const Deployed = new Discord.MessageEmbed()
 													.setColor('#FF00B3')
 													.setAuthor('CloudServer ¦ Creation', client.user.avatarURL())
@@ -160,7 +160,7 @@ exports.run = (client, message) => {
 										else if (software === '4') {
 											Application.createServer('latest', randname, user.pterodactyl_userID, null, client.config.bedrockEGG, 'quay.io/parkervcp/pterodactyl-images:base_ubuntu', './bedrock_server', ram, '0', disk, '500', '100', '0', '1').then(res => {
 												con.query(`UPDATE users SET current_ram = '${RamCount}', current_disk = '${DiskCount}', current_servers = '${Servers}' WHERE discord_id = '${message.author.id}'`);
-												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}')`);
+												con.query(`INSERT INTO servers (discord_id, pterodactyl_serverID, pterodactyl_userID, server_identifier, server_ram, server_disk) VALUES  ('${message.author.id}', '${res.id}', '${user.pterodactyl_userID}', '${res.identifier}', '${ram}', '${disk}')`);
 												const Deployed = new Discord.MessageEmbed()
 													.setColor('#B100FF')
 													.setAuthor('CloudServer¦ Creation', client.user.avatarURL())

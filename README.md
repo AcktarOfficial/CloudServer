@@ -25,7 +25,7 @@ Installation
 ![pma](https://i.imgur.com/2pOK7xz.jpg)
 - `From the same folder take the createServer.js file and move it into your /node_modules/nodeactyl/application/methods/createServer.js replacing the default one`
 - `Then fill in the required informations in the config.json file`
-[config](https://i.imgur.com/FK63p23.jpg)
+![config](https://i.imgur.com/FK63p23.jpg)
 - `Run npm install in the root directory of the bot files`
 - `Run node index.js and you are done`
 ![Imgur](https://i.imgur.com/thE9b3Q.jpg)

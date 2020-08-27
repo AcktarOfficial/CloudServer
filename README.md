@@ -16,7 +16,7 @@ Links
 --------------------
 
 * __[Youtube](https://m.youtube.com/channel/UChjN4G3gnyn8F7FUo-WRQpA)__
-* __[Discord](https://discord.gg/WQvGtXk)__
+* __[Discord](https://discord.gg/KCuZQgA)__
 
 Installation
 -------------

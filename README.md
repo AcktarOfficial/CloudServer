@@ -1,5 +1,5 @@
 ## CloudServer Alpha
-![Logo](https://cdn.glitch.com/0986b721-128c-4726-9722-310dabfe979b%2F20200905_185924.png?v=1599318389848)
+![Logo](https://cdn.glitch.com/0986b721-128c-4726-9722-310dabfe979b%2FIMG_20200905_190815.png?v=1599318544579)
 
 Introduction
 -------------

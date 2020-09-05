@@ -38,12 +38,6 @@ Screenshots
 ![creation](https://i.imgur.com/OA0pJ4K.jpg)
 ![registration](https://i.imgur.com/vwMVOlE.jpg)
 
-## Project Statistics
-
-[![HitCount](http://hits.dwyl.com/AcktarOfficial/CloudServer.svg)](http://hits.dwyl.com/AcktarOfficial/CloudServer)
-[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/AcktarOfficial/CloudServer)
-
-
 ## Project Status
 Registration System❤️
 Database Implementation❤️
